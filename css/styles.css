@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  margin-top: 10vh;
+  height:80vh;
+  box-shadow: 0 10px  12px 6px rgba(0,0,0, 0.1);
+  position: relative;
+}
+
+h2, h3, h4, h5, p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 0 50px;
+}
+h1 {
+  text-align: center;
+  padding: 0 50px;
+  font-size: 160px;
+  margin-top: 6vh;
+}
+p, h4 {
+  margin-top: 10px;
+}
+#contact {
+  position:absolute;
+  bottom: 4vh;
+  width: 100%;
+}
